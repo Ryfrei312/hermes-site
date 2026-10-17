@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Hermes</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3rem 1.5rem 5rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .35rem; letter-spacing: -0.01em; }
+  .sub { color: #666; font-size: 1.05rem; margin: 0 0 2.25rem; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .6rem; letter-spacing: -0.005em; }
+  p, li { margin: .6rem 0; }
+  ul { padding-left: 1.35rem; }
+  code {
+    font: 0.875em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    background: #f2f2f2; padding: .12em .38em; border-radius: 4px;
+  }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem;
+    border-top: 1px solid #e4e4e4;
+    font-size: .9rem; color: #666;
+  }
+  a { color: #0b57d0; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #141414; }
+    .sub, footer { color: #a0a0a0; }
+    code { background: #262626; }
+    footer { border-top-color: #2e2e2e; }
+    a { color: #8ab4f8; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Privacy Policy</h1>
+  <p class="sub">Hermes — personal Google Workspace agent. Last updated 17 October 2026.</p>
+
+  <h2>1. Scope</h2>
+  <p>
+    This policy describes how Hermes (the &ldquo;Application&rdquo;) accesses, uses, stores,
+    and shares data obtained from Google APIs. The Application is a personal tool
+    operated by, and serving, a single individual: the owner of the Google account
+    that authorizes it. It is not offered to the public and has no other users.
+  </p>
+
+  <h2>2. Google user data the Application accesses</h2>
+  <p>When the owner grants access through Google's OAuth consent screen, the Application may access:</p>
+  <ul>
+    <li><strong>Gmail</strong> — read messages, send messages, and modify labels
+      (<code>gmail.readonly</code>, <code>gmail.send</code>, <code>gmail.modify</code>);</li>
+    <li><strong>Google Calendar</strong> — read, create, and delete events (<code>calendar</code>);</li>
+    <li><strong>Google Drive</strong> — search, read, upload, organize, and delete files (<code>drive</code>);</li>
+    <li><strong>Google Sheets</strong> — read and write spreadsheet values (<code>spreadsheets</code>);</li>
+    <li><strong>Google Docs</strong> — read and write document content (<code>documents</code>);</li>
+    <li><strong>Google Contacts</strong> — read contact names, addresses, and phone numbers (<code>contacts.readonly</code>).</li>
+  </ul>
+
+  <h2>3. How that data is used</h2>
+  <p>
+    Google user data is used solely to perform the specific tasks the owner
+    requests in conversation with the Application — for example, summarizing an
+    email, listing upcoming events, or updating a spreadsheet cell. The
+    Application does not scan, index, or analyze the account's contents on its
+    own initiative, and performs no background collection.
+  </p>
+
+  <h2>4. How that data is stored</h2>
+  <p>
+    The Application stores a Google OAuth refresh token on the owner's own
+    computer, in the owner's local profile directory. This token is what allows
+    the Application to act on the owner's behalf without re-authorizing each
+    time. It is stored only on that machine and is never transmitted to the
+    developer.
+  </p>
+  <p>
+    Message bodies, file contents, and calendar entries are retrieved on demand
+    and are not retained in any database or long-term store by the Application.
+    The owner may delete the token at any time, which immediately ends the
+    Application's access.
+  </p>
+
+  <h2>5. How that data is shared</h2>
+  <p>
+    <strong>Google user data is not sold, and is not used or transferred for
+    advertising, profiling, or any purpose unrelated to the owner's requests.</strong>
+    It is not shared with third parties, with one necessary exception:
+  </p>
+  <ul>
+    <li>
+      <strong>AI model processing.</strong> Hermes is an AI agent. To interpret
+      the owner's request and produce a response, the content the Application
+      reads from Google — such as an email's text or a spreadsheet's cells — is
+      sent to the AI model provider the owner has configured, over an encrypted
+      connection, for the sole purpose of processing that request. The owner
+      chooses and controls that provider. No Google user data is sent anywhere
+      else.
+    </li>
+  </ul>
+  <p>
+    The Application's use of Google user data complies with the Google API
+    Services User Data Policy, including its Limited Use requirements.
+  </p>
+
+  <h2>6. Retention and deletion</h2>
+  <ul>
+    <li>Revoking access — from the Application, or from
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+      — immediately and permanently ends the Application's ability to reach the
+      account, and deletes the locally stored token.</li>
+    <li>Because the Application keeps no server-side copy of Google user data,
+      there is nothing further to delete on any server when access is revoked.</li>
+    <li>Content already delivered into a conversation may persist in the owner's
+      local conversation history until the owner deletes it.</li>
+  </ul>
+
+  <h2>7. Security</h2>
+  <p>
+    Communication with Google APIs and with the AI model provider uses HTTPS.
+    The stored OAuth token is readable only by the owner's local user account.
+  </p>
+
+  <h2>8. Children</h2>
+  <p>The Application is not directed at children and is not available to the public.</p>
+
+  <h2>9. Changes</h2>
+  <p>
+    Any change to this policy will be published on this page with an updated
+    revision date.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>
+    Questions about this policy or about the handling of Google user data may be
+    directed to
+    <a href="mailto:talariabot@gmail.com">talariabot@gmail.com</a>.
+  </p>
+
+  <footer>
+    <p><a href="index.html">← Back to Hermes</a></p>
+  </footer>
+
+</main>
+</body>
+</html>

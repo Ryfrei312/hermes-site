@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes — Personal Google Workspace Agent</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3rem 1.5rem 5rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .35rem; letter-spacing: -0.01em; }
+  .sub { color: #666; font-size: 1.05rem; margin: 0 0 2.25rem; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .6rem; letter-spacing: -0.005em; }
+  p, li { margin: .6rem 0; }
+  ul { padding-left: 1.35rem; }
+  code {
+    font: 0.875em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    background: #f2f2f2; padding: .12em .38em; border-radius: 4px;
+  }
+  .note {
+    border-left: 3px solid #d0d0d0;
+    padding: .1rem 0 .1rem 1rem;
+    color: #555;
+    margin: 1.25rem 0;
+  }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem;
+    border-top: 1px solid #e4e4e4;
+    font-size: .9rem; color: #666;
+  }
+  a { color: #0b57d0; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #141414; }
+    .sub, footer, .note { color: #a0a0a0; }
+    code { background: #262626; }
+    footer { border-top-color: #2e2e2e; }
+    .note { border-left-color: #3a3a3a; }
+    a { color: #8ab4f8; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Hermes</h1>
+  <p class="sub">A personal, single-user agent for the owner's own Google Workspace account.</p>
+
+  <h2>What this application is</h2>
+  <p>
+    Hermes is a private automation agent that runs locally on the computer of its
+    single owner. It is not a public service, it is not offered to the general
+    public, and it has no other users. The only Google account it can ever access
+    is the owner's own account, which the owner authorizes directly through
+    Google's OAuth consent screen.
+  </p>
+
+  <h2>What it does</h2>
+  <p>When the owner asks it to, Hermes connects to the owner's Google account and:</p>
+  <ul>
+    <li>reads, searches, drafts and sends Gmail messages;</li>
+    <li>reads, creates and deletes Google Calendar events;</li>
+    <li>searches, uploads, downloads and organizes files in Google Drive;</li>
+    <li>reads and writes Google Sheets spreadsheets;</li>
+    <li>reads and writes Google Docs documents;</li>
+    <li>reads the owner's Google Contacts.</li>
+  </ul>
+  <p>
+    Every action is initiated by the owner in a conversation with the agent. The
+    application performs no background scanning, no bulk collection, and no
+    automated processing of the account's contents.
+  </p>
+
+  <h2>Who it is for</h2>
+  <p>
+    Exactly one person: the owner of the Google account that grants access. There
+    are no sign-ups, no accounts, and no way for anyone else to use this
+    application against their own Google data.
+  </p>
+
+  <h2>Data handling</h2>
+  <p>
+    Google user data is used only to carry out the tasks the owner requests, and
+    only within the owner's own account. Data is not sold, is not used for
+    advertising, and is not shared with third parties except as described in the
+    privacy policy. Full details are in the
+    <a href="privacy.html">Privacy Policy</a>.
+  </p>
+
+  <div class="note">
+    <p>
+      Hermes is an independently developed personal project. It has not been
+      submitted for Google's app verification review, which is why the consent
+      screen shows an &ldquo;unverified app&rdquo; warning. That warning is expected and is
+      safe to acknowledge for the single account that authorizes it.
+    </p>
+  </div>
+
+  <footer>
+    <p>
+      Contact: <a href="mailto:talariabot@gmail.com">talariabot@gmail.com</a><br>
+      Last updated: 17 October 2026
+    </p>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
